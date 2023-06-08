@@ -14,23 +14,18 @@ The Markdown Previewer is built using the following technologies:
 
 ## Getting Started
 To run the Markdown Previewer locally, follow these steps:
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/Kalutu/Markdown-Previewer`
 2. Navigate to the project directory: `cd markdown-previewer`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your web browser and visit `http://localhost:3000` to access the Markdown Previewer.
 
 ## Usage
-
 1. Enter your Markdown content in the editor section of the application.
 2. The preview section will update in real-time to display the rendered Markdown content.
 3. Modify the Markdown content to see the preview update dynamically.
 
 ## Contributing
-
 Contributions to the Markdown Previewer are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## License
-
-The Markdown Previewer is open source and released under the [MIT License](LICENSE).
 
