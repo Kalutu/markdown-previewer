@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #b7afaf;
+    color: black;
+}
+
+.textarea {
+    width: 60%;
+    height: 35vh;
+    font-size: 14px;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+}
+
+.textarea:focus {
+    box-shadow: 0px 0px 3px 3px rgb(94, 107, 147);
+}
+.preview-container {
+    width: 60%;
+    height: 35vh;
+    overflow: auto;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#preview {
+    white-space: pre-wrap; 
+}
+
+#preview code {
+    border-radius: 4px;
+    padding: 5px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#preview pre {
+    background-color: rgb(165, 160, 160);
+    padding: 5px;
+}
