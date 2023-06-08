@@ -28,4 +28,10 @@ To run the Markdown Previewer locally, follow these steps:
 ## Contributing
 Contributions to the Markdown Previewer are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
+## Credits
+This Markdown Previewer project is part of the [FreeCodeCamp Frontend Certification](https://www.freecodecamp.org/learn/front-end-libraries/) course. It was completed as one of the required projects in the curriculum.
+
+FreeCodeCamp (FCC) is a nonprofit organization that offers a comprehensive web development curriculum and certifications. The Frontend Certification focuses on frontend libraries and frameworks like React, and it covers various topics including HTML, CSS, JavaScript, and more.
+
+Learn more about FreeCodeCamp and their educational programs on their official website: [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
 
