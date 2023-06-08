@@ -1,6 +1,9 @@
 # Markdown Previewer
 The Markdown Previewer is a web application that allows you to write and preview Markdown content in real-time. It uses the `marked` library to convert Markdown syntax into HTML for rendering.
 
+## Preview
+![Markdown Previewer Website Preview](img/markdown-previewer.jpg)
+
 ## Features
 - Live Markdown preview: As you type in the editor, the preview section updates in real-time to show the rendered Markdown content.
 - Support for Markdown syntax: The previewer supports various Markdown elements such as headers, links, code blocks, lists, blockquotes, images, and formatting (e.g., bold, italic).
