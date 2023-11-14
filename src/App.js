@@ -1,5 +1,6 @@
 import React from 'react';
 import { marked } from 'marked';
+import Preview from './Components/Preview';
 import './style.css';
 
 export default function App() {
@@ -13,16 +14,6 @@ export default function App() {
         });
     }, [text]);
 
-    function Preview({ markdown }) {
-        const html = marked(markdown, { renderer: renderer });
-        return (
-            <div
-                dangerouslySetInnerHTML={{
-                    __html: html,
-                }}
-            ></div>
-        );
-    }
 
     return (
        <div className="text-center px-4">
@@ -30,7 +21,7 @@ export default function App() {
             <textarea name="text" id="editor" rows="10" value={text} className="textarea" onChange={(e) => setText(e.target.value)}></textarea>
             <h2 className="m-3">Output</h2>
             <div className="preview-container">
-                <Preview markdown={text} />
+                <Preview markdown={text} renderer={renderer}/>
             </div>
        </div>
     );
